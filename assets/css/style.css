@@ -1,0 +1,31 @@
+#biotext{
+	text-align:justify;
+	text-justify:inter-word;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Libre Baskerville',serif !important;
+}
+p, a, td, span{
+	font-family: 'Open Sans',sans-serif !important;
+}
+img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	transition: filter 0.2s;
+	transition: -webkit-filter 0.2s;
+	transition: -moz-filter 0.2s;
+	-webkit-transition: filter 0.2s; /* Safari */
+	-webkit-transition: -webkit-filter 0.2s; /* Safari */
+	-webkit-transition: -moz-filter 0.2s; /* Safari */
+}
+img:hover{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+}
+.lb-image{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+}
